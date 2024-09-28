@@ -1,4 +1,5 @@
 body {
+    background-color: #795757;
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -8,3 +9,49 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+#calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    min-height: 520px;
+    min-width: 400px;
+    border: 3px solid black;
+}
+
+#display {
+    background-color: #FFF0D1;
+    padding: 30px;
+    font-size: 32px;
+    text-align: end;
+    border: 20px solid black;
+    margin: 0px;
+}
+
+#buttons {
+    background-color: #3B3030;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+#buttons button {
+    background-color: #664343;
+    color: #FFF0D1;
+    margin: 8px;
+    font-size: 24px;
+    flex-shrink: 0;
+    min-width: 84px;
+    min-height: 84px;
+}
+
+#buttons .opr {
+    background-color: rgb(145, 54, 21);
+}
+
+#buttons .eql {
+    background-color: green;
+}
+
+#buttons .rst {
+    background-color: maroon;
+}
